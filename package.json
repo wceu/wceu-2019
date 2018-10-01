@@ -4,7 +4,6 @@
   "description": "Style guide generated from CSS to help developing of WordCamp themes easier. Based on CampSite 2017",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "gulp-autoprefixer": "^4.0.0"
   },
