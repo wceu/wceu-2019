@@ -27,6 +27,7 @@
 
   position: relative; // Add position: relative to keep the light beams from leaking out
   overflow: hidden; // Add overflow: hidden to keep light beams from leaking out
+  margin-bottom: 0!important;
 
   @include container-padding(1.5);
 
