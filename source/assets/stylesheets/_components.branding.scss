@@ -48,14 +48,14 @@
   font-size: ms(2);
   line-height: 1;
   font-family: $font-headline;
-  font-weight: $bold;
+  font-weight: $normal;
   text-transform: uppercase;
   color: $color-text-strong-invert;
 
   a {
 
     display: block;
-    color: $color-link-alt;
+    color: $color-brand-quaternary;
 
     &:hover,
     &:focus,
