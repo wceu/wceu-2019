@@ -50,18 +50,19 @@
   font-family: $font-headline;
   font-weight: $medium;
   text-transform: uppercase;
-  color: $color-text-strong-invert;
+  color: $color-brand-primary;
 
   a {
 
     display: block;
-    color: $color-brand-quaternary;
+    color: $color-brand-primary;
+    letter-spacing: .01em;
 
     &:hover,
     &:focus,
     &:active {
 
-      color: $color-link-alt-hover;
+      color: $color-text-strong-invert;
       text-decoration: none;
 
     }
@@ -98,6 +99,6 @@
   font-family: $font-body;
   font-weight: $regular;
   text-transform: none;
-  color: $color-brand-quaternary;
+  color: $color-brand-primary;
 
 }
