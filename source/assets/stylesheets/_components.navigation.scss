@@ -127,8 +127,8 @@
   // }
 
   // background-color: $color-brand-tertiary;
-  background-color: $color-brand-quaternary;
-  background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.3));
+  background-color: $color-brand-quinary;
+  //background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.3));
 
   @include breakpoint(to-small) {
 
