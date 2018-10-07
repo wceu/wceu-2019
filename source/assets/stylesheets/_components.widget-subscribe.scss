@@ -22,8 +22,10 @@
   }
 
   .widget-title {
-
-    color: $color-brand-secondary;
+    
+    font-weight: $light;
+    color: $color-text-strong-invert;
+    letter-spacing: .01em;
   }
 
   p {
