@@ -55,14 +55,14 @@
   a {
 
     display: block;
-    color: $color-brand-primary;
+    color: rgb(255, 255, 255);
     letter-spacing: .01em;
 
     &:hover,
     &:focus,
     &:active {
 
-      color: $color-text-strong-invert;
+      color: rgba(255, 255, 255, .75);
       text-decoration: none;
 
     }
