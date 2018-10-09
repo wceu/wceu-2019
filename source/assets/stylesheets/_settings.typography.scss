@@ -5,9 +5,9 @@
 //
 // Write about your typography choices for this WordCamp.
 //
-// Josefin Sans is used as the font for WordCamp logo and for all headlines.
+// Bree Serif is used as the font for WordCamp logo and for all headlines.
 //
-// Source Sans Pro is used for body text, buttons, forms etc.
+// Lato is used for body text, buttons, forms etc.
 //
 // Style guide: 1.typography
 
@@ -16,8 +16,8 @@ $ms-base: 1em;
 $ms-ratio: 1.25;
 
 /* Fonts */
-$font-brand-primary:              'Source Sans Pro', $helvetica;
-$font-brand-secondary:            'Josefin Sans', $helvetica;
+$font-brand-primary:              'Lato', $helvetica;
+$font-brand-secondary:            'Bree Serif', $helvetica;
 
 /* Font use case */
 $font-body:                       $font-brand-primary;

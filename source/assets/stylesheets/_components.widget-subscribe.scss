@@ -22,8 +22,10 @@
   }
 
   .widget-title {
-
-    color: $color-brand-secondary;
+    
+    font-weight: $light;
+    color: $color-text-strong-invert;
+    letter-spacing: .01em;
   }
 
   p {
@@ -84,6 +86,27 @@
   }
 
   #subscribe-submit {
+
+  }
+
+}
+
+
+.widget_eu_cookie_law_widget #eu-cookie-law {
+
+  input[type="submit"] {
+
+    color: $color-text-strong-invert;
+    background-color: $color-brand-primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+
+      color: $color-brand-primary;
+      background-color: $color-text-strong-invert;
+
+    }
 
   }
 

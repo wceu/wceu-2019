@@ -62,4 +62,4 @@ gulp.task('default', ['browserSync', 'stylesheets', 'images', 'kss'], function()
 });
 
 // Start build task
-gulp.task('build', ['stylesheets', 'images', 'kss'], function() {})
+gulp.task('build', ['default', 'stylesheets', 'images', 'kss'], function() {})

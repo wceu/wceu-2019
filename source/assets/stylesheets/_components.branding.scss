@@ -27,6 +27,7 @@
 
   position: relative; // Add position: relative to keep the light beams from leaking out
   overflow: hidden; // Add overflow: hidden to keep light beams from leaking out
+  margin-bottom: 0!important; // Add this to override inline styling
 
   @include container-padding(1.5);
 
@@ -47,20 +48,21 @@
   font-size: ms(2);
   line-height: 1;
   font-family: $font-headline;
-  font-weight: $bold;
+  font-weight: $medium;
   text-transform: uppercase;
-  color: $color-text-strong-invert;
+  color: $color-brand-primary;
 
   a {
 
     display: block;
-    color: $color-link-alt;
+    color: rgb(255, 255, 255);
+    letter-spacing: .01em;
 
     &:hover,
     &:focus,
     &:active {
 
-      color: $color-link-alt-hover;
+      color: rgba(255, 255, 255, .75);
       text-decoration: none;
 
     }
@@ -97,6 +99,6 @@
   font-family: $font-body;
   font-weight: $regular;
   text-transform: none;
-  color: $color-text-weak-invert;
+  color: $color-brand-primary;
 
 }

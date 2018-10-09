@@ -1,4 +1,4 @@
-# WordCamp Europe 2018 Style Guide
+# WordCamp Europe 2019 Style Guide
 
 Read [the article about the style guide](https://2017.europe.wordcamp.org/2017/05/09/using-style-guides-for-modular-wordcamp-designs/) on WordCamp Europe blog. See the current version of the generated [style guide](https://lucijanblagonic.github.io/wceu-2018/styleguide/).
 
@@ -47,7 +47,7 @@ Feel free to modify everything in the `source` directory and keep in mind that `
 
 * Uses [Bourbon](bourbon.io), a lightweight Sass Tool Set
 * Uses [Modular scale](https://github.com/modularscale/modularscale-sass) for typography
-* Uses [Susy](susy.oddbird.net) for grids
+* Uses [Susy](http://oddbird.net/susy/) for grids
 * CSS architecture based on ITCSS (Inverted Triangle CSS) by [Harry Roberts](http://csswizardry.com) [Article](http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528)
 
 ## Additional Resources

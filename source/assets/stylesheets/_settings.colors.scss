@@ -214,11 +214,11 @@
 
 /* Brand */
 
-$color-brand-primary:             #5566C3; // Blue
-$color-brand-secondary:           #F95758; // Red
-$color-brand-tertiary:            #EFDC39; // Yellow
-$color-brand-quaternary:          #282409; // Black
-// $color-brand-quinary:             #fff; //
+$color-brand-primary:             #db0577; // Pink
+$color-brand-secondary:           #bca713; // Okeryellow
+$color-brand-tertiary:            #8e1254; // Dark Purple
+$color-brand-quaternary:          #1598a8; // Turkoois
+$color-brand-quinary:             #1b646c; // Dark turkoois
 
 @include cc($color-brand-primary, 'color-brand-primary');
 @include cc($color-brand-secondary, 'color-brand-secondary');
