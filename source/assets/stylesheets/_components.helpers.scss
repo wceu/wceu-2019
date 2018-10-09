@@ -58,10 +58,15 @@
   background-color: $color-brand-tertiary;
   border-radius: $border-radius-small;
 
-  p:last-child {
+  p {
 
-    margin-bottom: 0;
+    color: $color-text-strong-invert;
 
+    &:last-child {
+
+      margin-bottom: 0;
+
+    }
   }
 
 }
