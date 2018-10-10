@@ -153,8 +153,16 @@
 
   @include breakpoint(small) {
 
-    display: block;
-
+    //display: block;
+	display: flex;
+	justify-content: space-between;
+	
+	> li > a {
+		display: flex;
+		height: 100%;
+		align-items: center;
+	}
+	  
   }
 
   @include breakpoint(to-small) {
@@ -262,16 +270,15 @@
       &:after {
 
         position: relative;
-        top: -(rem(2));
+        bottom: -(rem(2));
 
-        display: inline-block;
+        //display: inline-block;
         border: rem(4) solid transparent;
-        margin-left: $unit-xs;
+        left: $unit-xs;
 
-        vertical-align: middle;
+        //vertical-align: middle;
 
-        border-top-color: $color-brand-tertiary;
-        // border-top-color: $color-brand-primary;
+        border-top-color: rgb(255, 255, 255);
 
         content: "";
 
@@ -305,6 +312,14 @@
     &.focus > .sub-menu {
 
       left: 0;
+
+    }
+	
+    &:hover.menu-item:last-of-type > .sub-menu,
+    &.focus.menu-item:last-of-type > .sub-menu {
+
+      right: 0;
+      left: auto;
 
     }
 
