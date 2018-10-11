@@ -90,7 +90,7 @@
 
   }
 
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
 
     display: none;
 
@@ -130,7 +130,7 @@
   background-color: $color-brand-quinary;
   //background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.3));
 
-  @include breakpoint(to-medium) {
+  @include breakpoint(to-small) {
 
     background-color: $color-brand-quaternary;
 
@@ -150,10 +150,8 @@
   @include clearfix();
 
   text-align: center;
-  max-width: 1200px;
-  margin: 0 auto;
 
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
 
     //display: block;
 	display: flex;
@@ -167,7 +165,7 @@
 	  
   }
 
-  @include breakpoint(to-medium) {
+  @include breakpoint(to-small) {
 
     border-top: 1px solid rgba(255,255,255,.2);
 
@@ -196,7 +194,7 @@
   text-align: left;
   text-transform: uppercase;
 
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
 
     margin: 0 rem(1);
     display: inline-block;
@@ -230,7 +228,7 @@
 
   @include breakpoint(medium) {
 
-    padding: $unit-s $unit-s;
+    padding: $unit-s $unit-m;
 
   }
 
@@ -263,7 +261,7 @@
 
   }
 
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
 
     background-color: transparent;
 
@@ -280,7 +278,7 @@
 
         //vertical-align: middle;
 
-        border-top-color: rgba(255,255,255,.8);
+        border-top-color: rgb(255, 255, 255);
 
         content: "";
 
@@ -304,8 +302,7 @@
 
       &:after {
 
-        //border-top-color: $color-text-strong-invert;
-        border-top-color: rgba(255,255,255,.8);
+        border-top-color: $color-text-strong-invert;
 
       }
 
@@ -348,7 +345,7 @@
 
   }
 
-  @include breakpoint(to-medium) {
+  @include breakpoint(to-small) {
 
     a {
 
@@ -388,7 +385,7 @@
 
   }
 
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
 
     position: absolute;
     top: 100%;
