@@ -408,6 +408,11 @@
       text-align: left;
 
     }
+    
+    li.focus > a,
+    li:hover > a {
+      background-color: $color-brand-tertiary;
+    }
 
     a {
 
