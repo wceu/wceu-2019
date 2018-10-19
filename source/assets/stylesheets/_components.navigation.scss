@@ -280,7 +280,7 @@
 
         //vertical-align: middle;
 
-        border-top-color: rgba(255,255,255,.8);
+        border-top-color: $color-text-strong-invert;
 
         content: "";
 
@@ -305,7 +305,7 @@
       &:after {
 
         //border-top-color: $color-text-strong-invert;
-        border-top-color: rgba(255,255,255,.8);
+        border-top-color: $color-text-strong-invert;
 
       }
 
@@ -328,7 +328,7 @@
 
     &.current-menu-item > a:after {
 
-      border-top-color: $color-text-strong;
+      border-top-color: $color-text-strong-invert;
 
     }
 
