@@ -8,7 +8,9 @@
 // Markup: post.html
 //
 // Style guide: 6.post
-
+#comments.comments-area ol.children li{
+  list-style-type: none;
+}
 .post {
 
   @include clearfix();
