@@ -11,14 +11,11 @@
 #comments.comments-area ol.children li{
   list-style-type: none;
 }
+
 .post {
-
   @include clearfix();
-
   margin-bottom: $unit-xl;
   padding-bottom: $unit-xl;
-  // border-bottom: rem(1) solid $color-border-weak;
-
   position: relative;
 
   &:after {
