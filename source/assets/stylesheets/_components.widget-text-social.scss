@@ -87,13 +87,14 @@
       transform: translateX(-50%)  rotate(45deg);
 
       display: block;
-      width: rem(40);
-      height: rem(40);
-      border: 4px solid $color-brand-primary;
+      width: rem(48);
+      height: rem(48);
+      //border: 4px solid $color-brand-primary;
+      background-color: $color-brand-primary;
 
-      content :"";
+      content: "";
 
-      border-radius: $border-radius-small;
+      border-radius: rem(24);
       transition: all .1s ease;
 
     }
@@ -137,19 +138,19 @@
 
   .social-twitter a:after {
 
-    background-image: url('https://2017.europe.wordcamp.org/files/2016/11/icon-twitter.png');
+    background-image: url('https://2019.europe.wordcamp.org/files/2018/10/icon-twitter.png');
 
   }
 
   .social-facebook a:after {
 
-    background-image: url('https://2017.europe.wordcamp.org/files/2016/11/icon-facebook.png');
+    background-image: url('https://2019.europe.wordcamp.org/files/2018/10/icon-facebook.png');
 
   }
 
   .social-instagram a:after {
 
-    background-image: url('https://2017.europe.wordcamp.org/files/2017/06/icon-instagram.png');
+    background-image: url('https://2019.europe.wordcamp.org/files/2018/10/icon-instagram.png');
 
   }
 
