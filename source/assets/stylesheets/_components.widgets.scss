@@ -124,6 +124,18 @@
     content: "";
 
   }
+  
+  &.jetpack_subscription_widget {
+    max-width: 624px;
+    text-align: left;
+    
+    #subscribe-email,
+    #subscribe-submit {
+      margin-left: 0;
+      margin-right: 0.5rem;
+    }
+    
+  }
 
 }
 
