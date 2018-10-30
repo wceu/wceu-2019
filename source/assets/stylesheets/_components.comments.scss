@@ -12,6 +12,13 @@
 .comments-area {
 
   margin-top: $unit-l;
+  
+  .akismet_comment_form_privacy_notice {
+  
+    margin-top: $unit-m;
+    font-size: ms(-1);
+    
+  }
 
 }
 
@@ -179,7 +186,7 @@ article.comment-body {
   .comment-subscription-form {
 
     margin-top: rem(4);
-    margin-bottom: 0;
+    margin-bottom: $unit-s;
 
     label {
 
