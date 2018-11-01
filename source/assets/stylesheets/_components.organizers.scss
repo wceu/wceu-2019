@@ -64,7 +64,9 @@
     float: left;
     margin-left: -(rem(64));
     width: rem(48);
-
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
     // clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
 
     @include breakpoint(small) {
