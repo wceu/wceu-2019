@@ -23,7 +23,7 @@ gulp.task('browserSync', function() {
     startPath: 'styleguide',
     server: {
       // Start in root (important for relative paths between build and style guide folders)
-      baseDir: ''
+      baseDir: './'
     }
   })
 })
