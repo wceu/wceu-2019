@@ -204,3 +204,25 @@
   }
 
 }
+
+
+
+/*
+ * Tickets payment options
+ *
+ * Collapse columns to rows
+ */
+
+button.tix_other_payment_options.tix-payment-tab {
+  
+	color: $color-brand-primary!important;
+  
+  &:active,
+  &:hover,
+  &:focus {
+    
+    color: $color-text-strong-invert!important;
+    
+  }
+  
+}

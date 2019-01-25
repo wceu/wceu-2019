@@ -182,3 +182,33 @@
   }
 
 }
+
+
+/*
+ * Primary sidebar widget
+ *
+ * Search styles in primary sidebar
+ */
+
+#primary-sidebar {
+  
+  .search-form {
+  
+    text-align: center;
+  
+  }
+
+  .search-field {
+  
+    display: inline-block;
+    width: 50%;
+
+  }
+
+  .search-submit {
+  
+	  display: inline-block;
+  
+  }
+  
+}
