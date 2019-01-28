@@ -63,7 +63,7 @@
 
   background: $site-hero-background $site-hero-path-small repeat-x 50% 100%;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 
   // Add gradient
   &:before {
@@ -90,6 +90,7 @@
   @include breakpoint(large) {
 
     background-image: $site-hero-path-large;
+    background-attachment: fixed;
 
   }
 
