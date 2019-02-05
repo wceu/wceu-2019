@@ -165,3 +165,11 @@ select {
   // background-position: right center;
 
 }
+
+// Search results : Add the input type search in one line 
+.no-results.not-found {
+    input[type="search"] {
+    display: inline-block;
+    width: 80%;
+  }
+}
