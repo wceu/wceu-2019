@@ -26,19 +26,14 @@
     text-align: center;
 
     &:before {
-
-      width: rem(160);
-      height: rem(2);
-
       position: absolute;
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
-
-      background-color: $color-brand-secondary;
-
+      background: url("https://2019.europe.wordcamp.org/files/2019/02/underline.png");
+      width: 697px;
+      height: 49px;
       content: "";
-
     }
 
   }
