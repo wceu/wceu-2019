@@ -40,27 +40,27 @@
       &:before {
         position: absolute;
         top: 50%;
-        left: 50%;
-        width: 100%;
+        right: 40%;
         transform: translateX(-50%);
-        border-top: 1px solid $color-border-weak;
-
+        background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019-left-line.png');
+        height: 5px;
+        width: 488px;
         content: "";
-
         z-index: -1;
 
       }
 
-      //&:after {
-      // position: absolute;
-      // top: 50%;
-      // left: 50%;
-       // width: 100%;
-       // transform: translateX(-50%);
-       //border-top: 1px solid $color-border-weak;
-       //content: "";
-      // z-index: -1;
-      //}
+      &:after {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translateX(-50%);
+        background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019-right-line.png');
+        height: 5px;
+        width: 488px;
+        content: "";
+        z-index: -1;
+      }
 
       &:after {
 
