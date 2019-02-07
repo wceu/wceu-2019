@@ -37,21 +37,29 @@
       padding-top: 0;
       border-top: none;
 
-      &:before,
-      &:after {
-
+      &:before {
         position: absolute;
         top: 50%;
         left: 50%;
         width: 100%;
         transform: translateX(-50%);
-
         border-top: 1px solid $color-border-weak;
 
         content: "";
 
         z-index: -1;
 
+      }
+
+      &:after {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+       border-top: 1px solid $color-border-weak;
+       content: "";
+       z-index: -1;
       }
 
       &:after {
