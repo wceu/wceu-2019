@@ -32,7 +32,7 @@
     position: relative;
     z-index: 100;
 
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
 
       padding-top: 0;
       border-top: none;
