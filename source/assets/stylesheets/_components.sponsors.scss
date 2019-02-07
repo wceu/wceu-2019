@@ -40,7 +40,7 @@
       &:before {
         position: absolute;
         top: 50%;
-        right: 40%;
+        left: 20%;
         transform: translateX(-50%);
         background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019-left-line.png');
         height: 5px;
@@ -53,7 +53,7 @@
       &:after {
         position: absolute;
         top: 50%;
-        left: 40%;
+        right: -25%;
         transform: translateX(-50%);
         background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019-right-line.png');
         height: 5px;
