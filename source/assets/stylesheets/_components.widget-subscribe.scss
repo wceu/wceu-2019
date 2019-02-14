@@ -15,9 +15,12 @@
 
   &:before {
 
-    background: $color-brand-quaternary $site-hero-path-pattern repeat 50% 50%;
-    background-size: 300px 300px;
+    background: #1598a8 url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019_jetpack_subscibe.jpg') no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
 
   }
 
