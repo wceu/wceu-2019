@@ -338,7 +338,7 @@ $color-message-danger:            #f04e3e;
 $color-input-regular:             $color-border-strong;
 $color-input-focus:               $color-brand-primary;
 $color-input-success:             #00a664;
-$color-input-error:               $color-message-danger;
+$color-input-error:               $color-message-danger!important;
 $color-input-required:            mix($color-message-danger, #000, 75%);
 $color-input-checkbox:            $color-border-strong;
 $color-input-checkbox-active:     $color-brand-primary;
