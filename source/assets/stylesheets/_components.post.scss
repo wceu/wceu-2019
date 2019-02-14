@@ -20,16 +20,19 @@
 
   &:after {
 
+    clear: both;
     display: block;
     position: absolute;
     bottom: 0;
-    left: 50%;
-
-    width: 100vw;
-    transform: translateX(-50%);
-
-    height: rem(2);
-    background-color: $color-grey-10;
+    transform: translateX(-70%);
+    height: .125rem;
+    background-color: #e8f5f6;
+      background:url("https://2019.europe.wordcamp.org/files/2019/02/wceu2019_line.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:800%;
 
   }
 
