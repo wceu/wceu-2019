@@ -399,7 +399,8 @@
     min-width: rem(260);
 
     background-color: $color-link;
-
+    border-bottom: 1px solid hsla(0,0%,100%,.4);
+    
     .menu-item {
 
       width: 100%;
