@@ -16,9 +16,7 @@
   }
 
   > div h2 {
-
     width: 100%;
-
     margin-top: $unit-default;
     margin-bottom: $unit-default;
 
@@ -36,7 +34,7 @@
 
       padding-top: 0;
       border-top: none;
-/*
+
       &:before {
         position: absolute;
         top: 50%;
@@ -62,7 +60,7 @@
         z-index: -1;
       }
 
-*/
+
     }
 
   }
