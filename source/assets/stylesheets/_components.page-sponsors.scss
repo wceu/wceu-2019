@@ -25,17 +25,6 @@
 
     text-align: center;
 
-    &:before {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      background: url("https://2019.europe.wordcamp.org/files/2019/02/underline.png");
-      width: 697px;
-      height: 49px;
-      content: "";
-    }
-
   }
 
 }
