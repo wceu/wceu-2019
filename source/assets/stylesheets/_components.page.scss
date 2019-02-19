@@ -1,0 +1,36 @@
+/*
+ * Main Page Headers
+ *
+ * Container page
+ * <div id="page" class="site"> 
+        <h1> class="entry-title">
+        ....</h1>
+ ... </div>
+ */
+
+
+#page h1.entry-title{
+    position: relative;
+    color:$color-brand-primary;
+        &::before {
+            position: absolute;
+            content: "";
+            background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019-page-line-right.png.png');
+            width: 213px;
+            height: 5px;
+            display: block;
+            bottom: 25px;
+            top: 0;
+    }
+
+    &:after {
+        position: absolute;
+        content: "";
+        background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019-page-line-right.png');
+        width: 213px;
+        height: 5px;
+        display: block;
+        bottom: 25px;
+        right: 0;
+    }
+}
