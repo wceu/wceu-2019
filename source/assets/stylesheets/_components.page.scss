@@ -3,36 +3,26 @@
  *
  * Container page
  * <div id="page" class="site"> 
+    <header class="entry-header">
         <h1> class="entry-title">
         ....</h1>
+    ...</header>
  ... </div>
  */
-
-/*
-#page h1.entry-title{
-    text-align: center;
-    position: relative;
-    color:$color-brand-primary;
-
-    &::before {
-        position: absolute;
-        content: "";
-        background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019-page-line-left.png');
-        width: 213px;
-        height: 5px;
-        display: block;
-        top: 35px;
+ #page {
+    header.entry-header {
+      background: url("https://2019.europe.wordcamp.org/files/2019/02/wceu2019_page_line.png");
+      background-repeat: repeat-x;
+      background-position: left;
     }
-
-    &:after {
-        position: absolute;
-        content: "";
-        background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019-page-line-right.png');
-        width: 213px;
-        height: 5px;
-        display: block;
-        bottom: 20px;
-        right: 0;
+    h1.entry-title {
+      color:$color-brand-primary;
+      display: inline-block;
+      position: relative;
+      background: #ffffff;
+      padding: 0 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 15px;
     }
-}
-*/
+  }
