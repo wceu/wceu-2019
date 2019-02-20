@@ -5,9 +5,9 @@
 //
 // Write about your typography choices for this WordCamp.
 //
-// Bree Serif is used as the font for WordCamp logo and for all headlines.
+// Playfair Display is used as the font for WordCamp logo and for all headlines.
 //
-// Lato is used for body text, buttons, forms etc.
+// Roboto Condensed is used for body text, buttons, forms etc.
 //
 // Style guide: 1.typography
 
@@ -16,8 +16,8 @@ $ms-base: 1em;
 $ms-ratio: 1.25;
 
 /* Fonts */
-$font-brand-primary:              'Playfair Display', $helvetica;
-$font-brand-secondary:            'Roboto Condensed', $helvetica;
+$font-brand-primary:              'Roboto Condensed', $helvetica;
+$font-brand-secondary:            'Playfair Display', $helvetica;
 
 /* Font use case */
 $font-body:                       $font-brand-primary;
