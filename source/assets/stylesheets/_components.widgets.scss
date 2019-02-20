@@ -17,20 +17,22 @@
 
 #header-widgets {
   position: absolute;
-top: 0px;
-z-index: 9000;
-width: 100%;
-margin: 0 auto;
-left: 0;
-right: 0;
-background-color:  $color-grey-10;
-padding: 5px 0 5px 0;
+  top: 0px;
+  z-index: 9000;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color:  $color-grey-10;
+  height:40px;
+    .widget{
+    padding:0;
+  }
 }
 
-#header-widgets .widget{
-padding:0;
+.jetpack_widget_social_icons ul li{
+  margin-left:8px;
 }
-
 
 .styleguide-widget-areas {
 
