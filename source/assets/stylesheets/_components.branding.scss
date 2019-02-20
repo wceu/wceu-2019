@@ -29,7 +29,7 @@
   overflow: hidden; // Add overflow: hidden to keep light beams from leaking out
   margin-bottom: 0!important; // Add this to override inline styling
 
-  @include container-padding(2.5);
+  @include container-padding(3.5);
 
   text-align: center;
 
