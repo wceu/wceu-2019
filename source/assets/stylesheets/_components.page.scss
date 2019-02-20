@@ -10,3 +10,20 @@
  ... </div>
  */
 
+.page header.entry-header, .postid-1114 header.entry-header, .postid-3478 header.entry-header, .postid-3305 header.entry-header, .postid-1341 header.entry-header {
+  background: url("https://2019.europe.wordcamp.org/files/2019/02/wceu2019_page_line.png");
+  background-repeat: repeat-x;
+  background-position: left;
+}
+
+.page h1.entry-title, .postid-1114 h1.entry-title, .postid-3478 h1.entry-title, .postid-3305 h1.entry-title, .postid-1341 h1.entry-title {
+  color: $color-brand-primary;
+  display: inline-block;
+  position: relative;
+  background: #fff;
+  padding: 0 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25px;
+  margin-bottom: rem(64);
+}
