@@ -15,26 +15,22 @@
 
 /* Widget for social media icons in header*/
 
-
-#content-widget-2 {
+#header-widgets {
   position: absolute;
-  top: 0px;
-  z-index: 9000;
-  width: 100%;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  background-color: $color-grey-10;
-  padding: 0 0 5px 0;
+top: 0px;
+z-index: 9000;
+width: 100%;
+margin: 0 auto;
+left: 0;
+right: 0;
+background-color:  $color-grey-10;
+padding: 5px 0 5px 0;
 }
 
-#jetpack_widget_social_icons-3{
-  padding:0!important;
+#header-widgets .widget{
+padding:0;
 }
 
-.jetpack_widget_social_icons ul{
-  margin:0!important;
-}
 
 .styleguide-widget-areas {
 
