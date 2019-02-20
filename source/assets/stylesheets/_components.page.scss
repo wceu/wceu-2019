@@ -9,6 +9,11 @@
     ...</header>
  ... </div>
  */
+ #page .post header.entry-header{
+  background-image: none!important;
+}
+
+
  #page {
     header.entry-header {
       background: url("https://2019.europe.wordcamp.org/files/2019/02/wceu2019_page_line.png");
@@ -25,5 +30,9 @@
       transform: translateX(-50%);
       top: 25px;
       margin-bottom: rem(64);
+    }
+
+    .post header.entry-header {
+      background-image: none !important;
     }
   }
