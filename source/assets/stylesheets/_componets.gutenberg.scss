@@ -1,0 +1,19 @@
+/*
+ * Gutenberg Gallery
+ *
+ * Container page
+ * <li class="blocks-gallery-item"> 
+        <figure>
+            <figcaption>
+            ....</figcaption>
+    ...</figure>
+ ... </li>
+ */
+ 
+.wp-block-gallery {
+  .blocks-gallery-image figcaption, .blocks-gallery-item figcaption {
+    padding:5px!important;;
+    color: $color-brand-primary!important;;
+    background:$color-grey-10!important;;
+  }
+}
