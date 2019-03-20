@@ -24,3 +24,8 @@ hr:not(.is-style-wide):not(.is-style-dots) {
   height: 4px;
 background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019-short-divider.png') no-repeat 50% 50%!important;
 }
+
+.has-talk{
+  font-weight: $medium;
+  color: $color-brand-primary;
+}
