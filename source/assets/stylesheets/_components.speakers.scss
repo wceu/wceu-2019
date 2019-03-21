@@ -153,3 +153,20 @@
   li {}
 
 }
+
+.post-slug-speakers-business h2 {
+  color: $color-brand-quinary;
+}
+
+.wp-image-5533.alignleft,
+.alignleft.wp-image-5422,
+.alignleft.wp-image-5424,
+.alignleft.wp-image-5372,
+.alignleft.wp-image-5425,
+.alignleft.wp-image-5426,
+.alignleft.wp-image-5371{
+  border-radius:50%;
+  border:4px solid $color-brand-primary;
+  width: 300px;
+  height:300px;
+}
