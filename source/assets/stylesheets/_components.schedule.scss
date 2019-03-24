@@ -369,8 +369,9 @@
 
     }
 
-    .wcb-track-track-1:before,
+    .wcb-track-main-track:before,
     .wcb-track-track-2:before,
+    .wcb-track-track-3:before,
     .wcb-track-workshop-1:before,
     .wcb-track-workshop-2:before,
     .wcb-track-workshop-3:before {
@@ -499,6 +500,7 @@ $session-type-color-design:      #E6AA50; // Gold
 $session-type-color-development: #CC9966; // Copper
 $session-type-color-community:   #f5ebe0; // Linnen
 $session-type-color-business:    #575357; // Ash
+$session-type-color-content:     #333333; // Dark gray
 
 @mixin session-label($session-label, $session-color) {
 
@@ -540,7 +542,6 @@ $session-type-color-business:    #575357; // Ash
 .wcb-session-category-keynote {}
 
 .wcb-session-category-workshop-3h,
-.wcb-session-category-workshop-60min,
 .wcb-session-category-workshop-90min {
 
   .wcpt-session-title {
@@ -572,11 +573,6 @@ $session-type-color-business:    #575357; // Ash
   content: "Workshop — 3 hours";
 
 }
-.wcb-session-category-workshop-60min .wcpt-session-title:before {
-
-  content: "Workshop — 60 min";
-
-}
 
 .wcb-session-category-workshop-90min .wcpt-session-title:before {
 
@@ -585,31 +581,14 @@ $session-type-color-business:    #575357; // Ash
 }
 
 // Development
-.wcb-session-selfish-accessibility,
-.wcb-session-demystifying-the-wordpress-bootstrap-process,
-.wcb-session-lightning-talks-development,
-.wcb-session-we-are-all-making-this-up-improv-lessons-for-developers,
-.wcb-session-is-your-code-ready-for-php7,
-.wcb-session-data-visualization-with-the-rest-api,
-.wcb-session-security-is-a-process,
-.wcb-session-wordpress-security-for-all-you-wont-believe-how-simple-it-can-be,
-.wcb-session-css-grid-changes-everything-about-web-layouts,
-.wcb-session-improving-wordpress-performance-with-xdebug-and-php-profiling,
-.wcb-session-reacting-natively-with-wordpress,
-.wcb-session-accessibility-in-the-age-of-the-headless-cms {
+.wcb-session-category-development {
 
   @include session-label('Development', $session-type-color-development);
 
 }
 
 // Business
-.wcb-session-3-gifts-my-users-gave-me,
-.wcb-session-lightning-talks-content, //
-.wcb-session-how-to-grow-from-freelancer-to-agency-owner,
-.wcb-session-making-your-voice-heard-how-to-win-friends-and-influence-policy,
-.wcb-session-5-ways-you-may-be-sabotaging-your-business-2-proven-ways-to-succeed,
-.wcb-session-lessons-learnt-marketing-woocommerce-since-july-2014,
-.wcb-session-using-wordpress-for-good {
+.wcb-session-category-business {
 
   @include session-label('Business', $session-type-color-business);
 
@@ -617,23 +596,23 @@ $session-type-color-business:    #575357; // Ash
 
 // Community
 
-.wcb-session-lightning-talks-inspire, //
-.wcb-session-lightning-talks-contributing-to-wordpress,
-.wcb-session-the-pernicious-myth-of-the-code-poet,
-.wcb-session-big-little-shame-a-tale-of-empowered-user-experience-through-localisation,
-.wcb-session-wordpress-beyond-borders-cross-cultural-communication-and-the-fundamentals-of-caring {
+.wcb-session-category-community {
 
   @include session-label('Community', $session-type-color-community);
 
 }
 
 // Design
-.wcb-session-new-to-theme-design-heres-what-you-should-know,
-.wcb-session-the-three-kinds-of-design,
-.wcb-session-big-design-troubles-in-open-source,
-.wcb-session-night-of-the-living-style-guides {
+.wcb-session-category-design {
 
   @include session-label('Design', $session-type-color-design);
+
+}
+
+// Content
+.wcb-session-category-content {
+
+  @include session-label('Content', $session-type-color-content);
 
 }
 
