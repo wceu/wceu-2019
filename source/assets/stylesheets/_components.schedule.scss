@@ -141,7 +141,7 @@
     width: 30%;
     width: 400px;
 
-    &:nth-child(2) {
+    &:nth-child(-n+4) {
 
       .schedule-tracks &,
       .schedule-full & {
@@ -153,39 +153,13 @@
 
     }
 
-    &:nth-child(3) {
+    &:nth-child(n+5) {
 
       .schedule-tracks &,
       .schedule-full & {
 
-        color: #fff;
+        color: #000;
         background-color: $color-brand-secondary;
-
-      }
-
-    }
-
-    &:nth-child(2),
-    &:nth-child(3),
-    &:nth-child(4) {
-
-      .schedule-workshops & {
-
-        color: $color-text-strong;
-        background-color: $color-brand-tertiary;
-
-      }
-
-    }
-
-    &:nth-child(4),
-    &:nth-child(5),
-    &:nth-child(6) {
-
-      .schedule-full & {
-
-        color: $color-text-strong;
-        background-color: $color-brand-tertiary;
 
       }
 
@@ -585,9 +559,9 @@ $session-type-color-business:    #575357; // Ash
     line-height: ms(1);
     text-transform: uppercase;
     font-weight: $bold;
-    color: $color-text-strong;
+    color: #000;
     border-radius: $border-radius-small;
-    background: $color-brand-tertiary;
+    background: $color-brand-secondary;
 
   }
 
