@@ -191,7 +191,9 @@
 }
 
 
-#wcorg-speaker-matt-mullenweg::before{
+
+
+#wcorg-speaker-matt-mullenweg h2::before{
       position: absolute;
       content: "";
       transition: all .15s ease;
