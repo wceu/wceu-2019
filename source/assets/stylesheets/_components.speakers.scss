@@ -159,7 +159,6 @@
   color: $color-brand-quinary;
 }
 
-
 .wp-image-5653.alignleft,
 .alignleft.wp-image-5648,
 .alignleft.wp-image-5649,
@@ -188,24 +187,5 @@
   border:4px solid $color-brand-primary;
   width: 280px;
   height:280px;
-}
-
-
-
-
-#wcorg-speaker-matt-mullenweg h2::before{
-      position: absolute;
-      content: "";
-      transition: all .15s ease;
-      left: 0;
-}
-
-#wcorg-speaker-matt-mullenweg h2{
-  &:before {
-    bottom: 30px;
-    background: url('https://2019.europe.wordcamp.org/files/2019/03/crown-yellow-speakers.png') no-repeat 100% 0;
-    width: 118px;
-    height: 64px;
-  }
 }
 
