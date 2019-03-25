@@ -45,23 +45,22 @@
   }
 
   .speaker-avatar {
-
     float: left;
     width: rem(100);
     margin: rem(8) rem(16) rem(8) 0;
 
     img {
-
+      -webkit-border-radius: 50%; 
+      -moz-border-radius: 50%; 
+      border-radius: 50%; 
+      border:4px solid $color-brand-primary;
       margin: 0;
 
     }
 
     @include breakpoint(small) {
-
       margin-right: 0;
       margin-left: 0 - rem(120);
-
-      box-shadow: -8px 10px 0px 0px rgba(244,223,39,1);
 
     }
 
