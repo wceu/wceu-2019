@@ -189,3 +189,21 @@
   width: 280px;
   height:280px;
 }
+
+
+#wcorg-speaker-matt-mullenweg::before{
+      position: absolute;
+      content: "";
+      transition: all .15s ease;
+      left: 0;
+}
+
+#wcorg-speaker-matt-mullenweg h2{
+  &:before {
+    bottom: 30px;
+    background: url('https://2019.europe.wordcamp.org/files/2019/03/crown-yellow-speakers.png') no-repeat 100% 0;
+    width: 118px;
+    height: 64px;
+  }
+}
+
