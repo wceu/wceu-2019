@@ -62,7 +62,7 @@
   .wcorg-speaker-description {}
 
   h2 {
-text-align:center;
+  text-align:center;
     position: relative;
     margin: 0;
     padding: $unit-s;
@@ -86,12 +86,11 @@ text-align:center;
       position: absolute;
       bottom: 100%;
       left: 0;
+      //background: $image-stripe-horizontal no-repeat right top;
 
-      background: $image-stripe-horizontal no-repeat right top;
-
-      min-width: rem(48);
-      width: 30%;
-      height: rem(24);
+     // min-width: rem(48);
+     // width: 30%;
+      //height: rem(24);
 
       content: "";
       @include transition-fast();
