@@ -29,7 +29,6 @@
 .wcorg-speaker {
 
   padding: 0;
-  border: 1px solid $color-border-weak;
   margin-bottom: $unit-default;
 
   border-radius: $border-radius-small;
@@ -63,7 +62,7 @@
   .wcorg-speaker-description {}
 
   h2 {
-
+text-align:center;
     position: relative;
     margin: 0;
     padding: $unit-s;
@@ -124,9 +123,10 @@
     width: 100%;
     height: auto;
     margin: 0;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-
+    -webkit-border-radius: 50%; 
+    -moz-border-radius: 50%; 
+    border-radius: 50%; 
+    border:4px solid $color-brand-primary;
   }
 
 
