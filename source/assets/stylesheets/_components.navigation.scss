@@ -232,12 +232,18 @@
   @include breakpoint(medium) {
 
     padding: $unit-s $unit-s;
+    
+		font-size: .8em;
+		line-height: 1em;
 
   }
 
   @include breakpoint(large) {
 
     padding: $unit-m $unit-m;
+    
+		font-size: initial;
+		line-height: initial;
 
   }
 

@@ -94,7 +94,7 @@
 
   }
 
-  @include breakpoint(large) {
+  @include breakpoint(extra-large) {
 
     background-image: $site-hero-path-large;
     background-attachment: fixed;
