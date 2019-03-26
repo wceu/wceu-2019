@@ -145,10 +145,9 @@
 
       .schedule-tracks &,
       .schedule-full & {
-
         color: #fff;
         background-color: $color-brand-primary;
-
+        border-right:1px solid $color-grey-10;
       }
 
     }
@@ -157,10 +156,9 @@
 
       .schedule-tracks &,
       .schedule-full & {
-
         color: #000;
         background-color: $color-brand-secondary;
-
+        border-right:1px solid $color-grey-10;
       }
 
     }
