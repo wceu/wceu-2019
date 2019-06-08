@@ -140,6 +140,12 @@
 
     width: 225px;
 
+    // Schedules with only one track column (WP Cafe and Wellness at WCEU)
+    &:nth-of-type(2):last-of-type {
+      width: auto;
+    }
+
+    // The first 3 track columns (tracks)
     &:nth-child(-n+4) {
 
       .schedule-tracks &,
@@ -151,6 +157,7 @@
 
     }
 
+    // The second three track columns (workshops)
     &:nth-child(n+5) {
 
       .schedule-tracks &,
